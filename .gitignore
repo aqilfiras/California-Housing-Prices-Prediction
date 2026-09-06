@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Colab and Jupyter Notebook auto-saves
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and Secrets (Just in case you use them later)
+.env
+secrets.json
+
+# OS specific files (Helpful if you ever clone this repo to a Mac/Windows machine)
+.DS_Store
+Thumbs.db
+
+# Ignore large data files (Colab is often used for ML, GitHub blocks files >100MB)
+*.csv
+*.dat
+*.pkl
+*.h5
